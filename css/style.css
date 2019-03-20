@@ -1,0 +1,556 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*my code to css*/
+.main-wrapper{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+    body{
+  background-color: #ccc;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+
+header nav {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+header nav ul{
+    float: left;
+}
+
+header .main-wrapper li{
+    padding-right: 50px;
+}
+
+header nav ul li{
+    float: left;
+    list-style:none;
+}
+
+header nav ul li a {
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height:63px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-wrapper{
+    padding-top: 10px;
+}
+
+header .main-wrapper ul li a {
+    display: inline;
+    float:left;
+}
+
+header .main-wrapper ul li a:hover{
+    color: #ccc;
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form{
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input{
+    float: left;
+    width: 160px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .nav-login form button{
+    float: left;
+    width: 120px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+
+header .nav-login form button:hover{
+    background-color: #ccc;
+}
+
+header .nav-login a {
+     display:block;
+     width: 60px;
+     height: 60px;
+     border: none;
+     padding-right: 10px;
+     float:left;
+     background-color: #fff;
+     font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height:63px;
+}
+
+
+
+.main-container{
+    padding-top:  0px;
+}
+
+
+
+.main-wrapper{
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sign{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.sign input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: : 4px;
+    border: none;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+}
+
+.sign button{
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin: 0 auto;
+    border: none;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sign button:hover{
+    background-color:#111;
+}
+
+
+#footerq{
+  background: #333;
+  color: #fff;
+  text-align:center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+#container{
+    width: 100%;
+    height: 450px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+#container>img{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+#container>.btn{
+    position: absolute;
+    width:50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    top: 200px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#container>#btn1{
+    position: relative;
+    float: left;
+    
+}
+
+#container>#btn2{
+    position: relative;
+    float: right;
+}
+
+.section{
+    padding: 40px;
+}
+
+.section h4{
+     padding: 40px;
+    font-family: tohoma;
+    background-color: white;
+    font-size: 14px;
+}
+
+.contain{
+    padding: 40px;
+    margin-bottom: 400px;
+}
+
+.block{
+  float:left;
+  width: 33.3%;
+  height: 15%;
+  border: 1px dotted #111;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.block h6{
+    font-size: 12px
+}
+
+.search{
+    margin: 20px 20px 20px 0px;
+    float: right;
+}
+
+.tab{
+    background-color: white;
+    margin: 200px 20px 40px 20px;
+    align-self: left;
+    padding-bottom: 50px;
+    
+}
+
+.tab1{
+    background-color: white;
+    margin: 80px 40px 40px 40px;
+    align-self: left;
+    padding: 30px 100px 50px 100px;
+    
+}
+
+.tab h6,.tab1 h6{
+    font-size: 14px;
+    text-align: center;
+    padding: 0px;
+}
+
+.tab h5{
+    color: red;
+    font-size: 10px;
+}
+
+.stutable,.stutable1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: solid 1px;
+    font-size: 14px;
+    color: black;
+    margin-top:20px;
+}
+
+.stutable1 td,.stutable1 th{
+    border: solid 1px;
+    padding:10px 0px 4px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.stutable td,.stutable th{
+    border: solid 1px;
+    padding:4px 10px 4px 0;
+    font-size: 12px;
+}
+
+.stutable input{
+    width:100%;
+    height:100%;
+    text-align:right;
+}
+.container1{
+    margin-bottom: 150px;
+}
+.container1 h5{
+    padding: 5% 20% 0 20%;
+
+}
+
+.container1 .ged {
+    float: right;
+}
+
+.container1 .ged .label{
+    color: red;
+}
+.container1 .ged input{
+    height: 20px;
+    
+}
+
+.section11,.section12{
+    margin: 20px;
+    background-color: white;
+}
+
+.section11 p{
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.section13{
+     margin: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+    clear: left;
+    padding-bottom:60px;
+
+}
+
+.section13 ul{
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.section13 ul li{
+    padding:0px;
+}
+.section13 h3{
+    text-align: center;
+}
+
+.section13 p{
+    margin-top:20px;
+    padding: 30px;
+    
+}
+.section11 h4,.section h4{
+     padding: 20px;
+    font-family: tohoma;
+    font-size: 14px;
+    text-align: left;
+}
+
+.section11 h6{
+     padding: 20px;
+    font-family: tohoma;
+    background-color: white;
+    font-size: 12px;
+  
+}
+
+.container1{
+    margin-bottom: 200px;
+}
+
+
+.section12 h6{
+    padding: 10px;
+    font-family: tohoma;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+
+.section13 form .k1{
+    height: 20px;
+    width:50%;
+    text-align: center;
+}
+
+.section13 form .k2{
+    height: 150px;
+    width:85%;
+    text-align: center;
+}
+
+
+@media  (min-width: 150px) and (max-width: 800px)
+{
+  
+header .main-wrapper li{
+    padding-right: 20px;
+}
+
+
+header .nav-login form input{
+    float: left;
+    width: 100px;
+    height: 30px;
+    padding: 0px 10px;
+
+}
+
+header .main-wrapper ul li a {
+    
+    font-size: 12px;
+}
+
+
+header .nav-login form button{
+    float: left;
+    width: 70px;
+    height: 30px;
+  
+}
+
+.block{
+    width: 100%;
+    padding: 50px;
+    margin-bottom: :800px;
+}
+
+.contain{
+   
+    margin-bottom: 1000px;
+}
+
+.stutable td,.stutable th{
+    font-size: 8px;
+    padding: 0 0 0 0;
+}
+    
+.section11 img{
+
+  margin-left: 10px;
+    
+    
+}
+    .section11 h6{
+     padding: 20px;
+    font-family: tohoma;
+    background-color: white;
+    font-size: 12px;
+    
+}
+
+}
